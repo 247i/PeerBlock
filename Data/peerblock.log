@@ -1,0 +1,113 @@
+
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[5/17/2021] [07:22:31.927] [04748]  [TraceLog] [StartLogging]    starting logging
+[5/17/2021] [07:22:31.927] [04748]  [mainproc] [Main_ProcessDb]    Deleted history.db and peerblock.log files
+[5/17/2021] [07:22:31.928] [04748]  [mainproc] [Main_ProcessDb]    done with 'delete' type cleanup
+[5/17/2021] [07:22:31.928] [04748]  [mainproc] [Main_ProcessDb]  < Leaving routine.
+[5/17/2021] [07:37:09.316] [04876]  [mainproc] [Main_OnCommand]    user clicked tray-icon right-click menu 'Exit' item
+[5/17/2021] [07:37:09.369] [04876]  [mainproc] [Main_OnCommand]    sufficient time has passed since last block, exiting program
+[5/17/2021] [07:37:09.382] [04876]  [mainproc] [Main_OnDestroy]    destroying main window
+[5/17/2021] [07:37:09.382] [04876]  [mainproc] [Main_OnDestroy]    writing config out to disk
+[5/17/2021] [07:37:09.382] [04876]  [Configuration] [Save]  > Entering routine.
+[5/17/2021] [07:37:09.387] [04876]  [Configuration] [Save]  < Leaving routine.
+[5/17/2021] [07:37:09.387] [04876]  [mainproc] [Main_OnDestroy]    finished saving config to peerblock.conf
+[5/17/2021] [07:37:09.406] [04876]  [mainproc] [Main_OnDestroy]    destroying main window tabs
+[5/17/2021] [07:37:09.406] [04876]  [mainproc] [Main_OnDestroy]    destroying tab: [Protection]
+[5/17/2021] [07:37:09.410] [04876]  [LogProc] [Log_OnDestroy]  > Entering routine.
+[5/17/2021] [07:37:09.410] [04876]  [LogProc] [Log_OnDestroy]    saving config
+[5/17/2021] [07:37:09.410] [04876]  [Configuration] [Save]  > Entering routine.
+[5/17/2021] [07:37:09.411] [04876]  [Configuration] [Save]  < Leaving routine.
+[5/17/2021] [07:37:09.411] [04876]  [LogProc] [Log_OnDestroy]    setting filter action-function to nothing
+[5/17/2021] [07:37:09.411] [04876]  [LogProc] [Log_OnInitDialog]    setting g_log to empty LogFilterAction
+[5/17/2021] [07:37:09.411] [04876]  [LogProc] [Log_OnDestroy]  < Leaving routine.
+[5/17/2021] [07:37:09.412] [04876]  [mainproc] [Main_OnDestroy]    tab [Protection] destroyed
+[5/17/2021] [07:37:09.412] [04876]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 1]
+[5/17/2021] [07:37:09.413] [04876]  [mainproc] [Main_OnDestroy]    tab [Settings 1] destroyed
+[5/17/2021] [07:37:09.413] [04876]  [mainproc] [Main_OnDestroy]    destroying tab: [Settings 2]
+[5/17/2021] [07:37:09.414] [04876]  [mainproc] [Main_OnDestroy]    tab [Settings 2] destroyed
+[5/17/2021] [07:37:09.414] [04876]  [mainproc] [Main_OnDestroy]    destroying tab: [Port Settings]
+[5/17/2021] [07:37:09.417] [04876]  [mainproc] [Main_OnDestroy]    tab [Port Settings] destroyed
+[5/17/2021] [07:37:09.417] [04876]  [mainproc] [Main_OnDestroy]    main window tabs destroyed
+[5/17/2021] [07:37:09.418] [04876]  [mainproc] [Main_OnDestroy]    Terminating program...
+[5/17/2021] [07:37:09.418] [04876]  [mainproc] [Main_OnDestroy]    post quit message
+[5/17/2021] [07:37:09.418] [04876]  Message loop ended, shutting down PeerBlock
+[5/17/2021] [07:37:09.418] [04876]  [mainproc] [Shutdown]    Shutting down PeerBlock.
+[5/17/2021] [07:37:09.418] [04876]  [mainproc] [Shutdown]    Resetting filter driver on exit
+[5/17/2021] [07:37:09.418] [14628]  [pbfilter_base] [thread_func]    thread terminating
+[5/17/2021] [07:37:09.419] [04876]  [driver] [close]  > Entering routine.
+[5/17/2021] [07:37:09.419] [04876]  [driver] [close]   closing driver - name: [pbfilter]
+[5/17/2021] [07:37:09.419] [04876]  [driver] [stop]  > Entering routine.
+[5/17/2021] [07:37:09.419] [04876]  [driver] [stop]    stopping driver
+[5/17/2021] [07:37:09.441] [04876]  [driver] [stop]    driver has been stopped
+[5/17/2021] [07:37:09.441] [04876]  [driver] [stop]  < Leaving routine.
+[5/17/2021] [07:37:09.441] [04876]  [driver] [close]    unloaded driver
+[5/17/2021] [07:37:09.441] [04876]  [driver] [close]  < Leaving routine.
+[5/17/2021] [07:37:09.442] [04876]  [driver] [close]  > Entering routine.
+[5/17/2021] [07:37:09.442] [04876]  [driver] [close]   closing driver - name: [pbfilter]
+[5/17/2021] [07:37:09.442] [04876]  [driver] [close]    Tried to close driver, but it wasn't loaded.
+[5/17/2021] [07:37:09.442] [04876]  [driver] [close]  < Leaving routine (without doing anything).
+[5/17/2021] [07:37:09.442] [04876]  [mainproc] [Shutdown]    Shutting down winsock
+[5/17/2021] [07:37:09.442] [04876]  [mainproc] [Shutdown]    Finished shutting down PeerBlock.
+[5/17/2021] [07:37:09.442] [04876]  PeerBlock is now exiting, due to user request.  Have a nice day!
+[5/17/2021] [07:37:09.442] [04876]  [UpdateThread] [UpdateThread]    destroyed thread class
+
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[5/18/2021] [07:05:53.012] [08116]  PeerBlock Starting
+[5/18/2021] [07:05:53.012] [08116]  PeerBlock 1.2
+[5/18/2021] [07:05:53.012] [08116]  Flushed tracelog
+[5/18/2021] [07:05:53.012] [08116]  Running on OS: UNKNOWN OS 6.3 64-bit - Build:[9600], SP:[0.0]
+[5/18/2021] [07:05:53.012] [08116]  User running as Admin
+[5/18/2021] [07:05:53.012] [08116]  Created program mutex
+[5/18/2021] [07:05:53.014] [08116]  Initialized common controls
+[5/18/2021] [07:05:53.014] [08116]  Registered color picker
+[5/18/2021] [07:05:53.015] [08116]  Initialized winsock
+[5/18/2021] [07:05:53.015] [08116]  Successfully PreventSetUnhandledExceptionFilter()
+[5/18/2021] [07:05:53.015] [08116]  Creating main UI window
+[5/18/2021] [07:05:53.020] [08116]  [mainproc] [Main_OnInitDialog]  > Entering routine.
+[5/18/2021] [07:05:53.020] [08116]  [mainproc] [Main_OnInitDialog]    loading config
+[5/18/2021] [07:05:53.020] [08116]  [Configuration] [Load]  > Entering routine.
+[5/18/2021] [07:05:53.020] [08116]  [Configuration] [LoadFile]    loading file:[C:\
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[5/18/2021] [07:45:49.140] [10520]  PeerBlock Starting
+[5/18/2021] [07:45:49.140] [10520]  PeerBlock 1.2
+[5/18/2021] [07:45:49.140] [10520]  Flushed tracelog
+[5/18/2021] [07:45:49.140] [10520]  Running on OS: UNKNOWN OS 6.3 64-bit - Build:[9600], SP:[0.0]
+[5/18/2021] [07:45:49.141] [10520]  User running as Admin
+[5/18/2021] [07:45:49.141] [10520]  Created program mutex
+[5/18/2021] [07:45:49.143] [10520]  Initialized common controls
+[5/18/2021] [07:45:49.143] [10520]  Registered color picker
+[5/18/2021] [07:45:49.144] [10520]  Initialized winsock
+[5/18/2021] [07:45:49.144] [10520]  Successfully PreventSetUnhandledExceptionFilter()
+[5/18/2021] [07:45:49.144] [10520]  Creating main UI window
+[5/18/2021] [07:45:49.148] [10520]  [mainproc] [Main_OnInitDialog]  > Entering routine.
+[5/18/2021] [07:45:49.148] [10520]  [mainproc] [Main_OnInitDialog]    loading config
+[5/18/2021] [07:45:49.149] [10520]  [Configuration] [Load]  > Entering routine.
+[5/18/2021] [07:45:49.149] [10520]  [Configuration] [LoadFile]    loading file:[C:\
+
+--------------------------------------------------------------------------------
+
+Logging Started...
+[1/28/2023] [00:15:34.804] [17856]  PeerBlock Starting
+[1/28/2023] [00:15:34.804] [17856]  PeerBlock 1.2
+[1/28/2023] [00:15:34.804] [17856]  Flushed tracelog
+[1/28/2023] [00:15:34.804] [17856]  Running on OS: UNKNOWN OS 6.3 64-bit - Build:[9600], SP:[0.0]
+[1/28/2023] [00:15:34.804] [17856]  User running as Admin
+[1/28/2023] [00:15:34.804] [17856]  Created program mutex
+[1/28/2023] [00:15:34.807] [17856]  Initialized common controls
+[1/28/2023] [00:15:34.807] [17856]  Registered color picker
+[1/28/2023] [00:15:34.808] [17856]  Initialized winsock
+[1/28/2023] [00:15:34.809] [17856]  Successfully PreventSetUnhandledExceptionFilter()
+[1/28/2023] [00:15:34.809] [17856]  Creating main UI window
+[1/28/2023] [00:15:34.818] [17856]  [mainproc] [Main_OnInitDialog]  > Entering routine.
+[1/28/2023] [00:15:34.818] [17856]  [mainproc] [Main_OnInitDialog]    loading config
+[1/28/2023] [00:15:34.818] [17856]  [Configuration] [Load]  > Entering routine.
+[1/28/2023] [00:15:34.819] [17856]  [Configuration] [LoadFile]    loading file:[C:\
